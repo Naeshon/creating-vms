@@ -6,7 +6,7 @@
 
 
 <h1>Creating a Virtual Machine & Logging Into It Through Remote Desktop in Windows (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the necessary steps in order to build a virtual machine and connect remotely.<br />
 
 
 
@@ -63,7 +63,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 5) Once the deployment is complete we can click 'Go To Resource' to get to the VM Overview page, this is where the Public IP Address is found, we will use this adrress in Remote Desktop to find our VM.
 
-![image](https://github.com/Naeshon/creating-vms/assets/153772720/9cc32edd-0049-493b-8a3f-8da593b9f7a5)
+![image](https://github.com/Naeshon/creating-vms/assets/153772720/9cc32edd-0049-493b-8a3f-8da593b9f7a5)         ![image](https://github.com/Naeshon/creating-vms/assets/153772720/6bbd6300-b21d-43de-a5de-725ebba829ce)
 
-6) Now we can open Remote Desktop Connection and enter our Virtual Machines public IP address.
+
+6) Now we can open Remote Desktop Connection and enter our Virtual Machines public IP address. After you hit connect & log into the VM using the username and password you created earlier you may get a screen that says something about a certificate error, we can skip this and hit yes to move forward & log in.
+
+![image](https://github.com/Naeshon/creating-vms/assets/153772720/bb3431fc-08a1-4fbd-8bde-8a204e42e118)
+
+
+7) Congrats! We have now successfully built the virtual machine in Azure and remotely connected to it through Remote Desktop.
+
 
